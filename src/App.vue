@@ -16,7 +16,7 @@
             </nav>
           </div><!--col-md-10-->
           <div class="col-md-1">
-            <dropdown :dataData="dataData" :cbChanged="changed"></dropdown>
+            <dropdown :data="dropdownData" :cbChanged="changed"></dropdown>
           </div>
         </div><!--row-->
       </div>
@@ -31,39 +31,23 @@
 
 <script>
 export default {
-  name: 'App'
-}
-</script>
-
-<script>
-data: {
-  showFirstPage:false;
-  showSecondPage:false;
-  showThirdPage:false;
-  dataData:false;
-  changed:false
-}
-</script>
-
-<style lang="scss">
-  @import 'assets/scss/main';
-</style>
-
-<script>
-const dataData = [{
-  label: 'profile',
-  value: 1
-}, {
-  label: 'setting',
-  value: 2
-}, {
-  label: 'logout',
-  value: 2
-}]
-export default {
-  dataData () {
+  name: 'App',
+  data () {
     return {
-      dataData
+      showFirstPage:false,
+      showSecondPage:false,
+      showThirdPage:false,
+      dataData:false,
+      dropdownData: [{
+        label: 'profile',
+        value: 1
+      }, {
+        label: 'setting',
+        value: 2
+      }, {
+        label: 'logout',
+        value: 2
+      }]
     }
   },
   methods: {
@@ -73,3 +57,7 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  @import 'assets/scss/main';
+</style>
