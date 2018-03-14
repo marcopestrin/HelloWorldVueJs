@@ -15,5 +15,4 @@ yarn-error.log*
 .sass-cache/
 *.css.map
 node_modules
-build
 *.log
