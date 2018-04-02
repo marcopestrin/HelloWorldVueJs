@@ -1,0 +1,54 @@
+#app {
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+	header {
+		background-color:blue;
+		height: 50px;
+		width: 100%;
+		display: block;
+		img {
+			height:30px;
+			margin:10px;
+		}
+		a {
+			color:#fff;
+			font-size:14px;
+		}
+		.navbar {
+			margin-bottom:0;
+			a.active {
+				font-weight: bold;
+				font-size:16px;
+			}	
+		}
+	}
+	.content {
+		margin-bottom:20px;
+		background-color:#eee;
+		padding:20px;
+		h1 {
+		 margin:0;
+		 font-size:30px;
+		}
+		p {
+			font-size:20px;
+			color:#222;
+		}
+		.pes-box {
+			height: 200px;
+			background-color:#999;
+			border:10px solid #eee;
+		}
+		.available {
+			display: block;
+			color:green;
+		}
+		.nearby {
+			display: block;
+			color:red;
+		}
+	}
+}
