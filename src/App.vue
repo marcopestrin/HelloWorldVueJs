@@ -16,10 +16,6 @@
             </nav>
           </div><!--col-md-10-->
           <div class="col-md-1">
-<<<<<<< HEAD
-=======
-            <dropdown :data="dropdownData" :cbChanged="changed"></dropdown>
->>>>>>> 4642e16738a2820f24e4d75ed2183bb409ff6557
           </div>
         </div><!--row-->
       </div>
@@ -34,7 +30,6 @@
 
 <script>
 export default {
-<<<<<<< HEAD
   name: 'App'
 }
 </script>
@@ -68,25 +63,6 @@ export default {
   dataData () {
     return {
       dataData
-=======
-  name: 'App',
-  data () {
-    return {
-      showFirstPage:false,
-      showSecondPage:false,
-      showThirdPage:false,
-      dataData:false,
-      dropdownData: [{
-        label: 'profile',
-        value: 1
-      }, {
-        label: 'setting',
-        value: 2
-      }, {
-        label: 'logout',
-        value: 2
-      }]
->>>>>>> 4642e16738a2820f24e4d75ed2183bb409ff6557
     }
   },
   methods: {
@@ -96,10 +72,3 @@ export default {
   }
 }
 </script>
-<<<<<<< HEAD
-=======
-
-<style lang="scss">
-  @import 'assets/scss/main';
-</style>
->>>>>>> 4642e16738a2820f24e4d75ed2183bb409ff6557
