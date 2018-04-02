@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+<<<<<<< HEAD
 
 Vue.config.productionTip = false
 
@@ -35,3 +36,19 @@ new Vue({
     }
   }
 })
+=======
+import Dropdown from 'hsy-vue-dropdown'
+
+Vue.use(Dropdown)
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
+new Vue(
+  {
+    el: '#app',
+    router,
+    components: { App },
+    template: '<App/>'
+  }
+)
+>>>>>>> 4642e16738a2820f24e4d75ed2183bb409ff6557

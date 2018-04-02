@@ -15,5 +15,8 @@ yarn-error.log*
 .sass-cache/
 *.css.map
 node_modules
+<<<<<<< HEAD
 build
+=======
+>>>>>>> 4642e16738a2820f24e4d75ed2183bb409ff6557
 *.log
